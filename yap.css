@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1024px) {
+  .cd-projects-previews li {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    float: left;
+  }
+  .cd-projects-previews li.slide-out {
+    transform: translateY(-100%);
+  }
+  .cd-projects-previews a {
+    /* width equal to window width */
+    width: 400%;
+  }
+  .cd-projects-previews li:nth-of-type(2) a {
+    transform: translateX(-25%);
+  }
+  .cd-projects-previews li:nth-of-type(3) a {
+    transform: translateX(-50%);
+  }
+  .cd-projects-previews li:nth-of-type(4) a {
+    transform: translateX(-75%);
+  }
+}
