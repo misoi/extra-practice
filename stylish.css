@@ -1,0 +1,8 @@
+cd-transition-layer.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.cd-transition-layer.opening .bg-layer {
+  animation: cd-sprite 0.8s steps(24);
+  animation-fill-mode: forwards;
+}
